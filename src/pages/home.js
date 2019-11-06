@@ -54,7 +54,7 @@ const Home = () => {
   return (
     <div>
       <div className='row'>
-        <div className='col s6'>
+        <div className='col s8'>
           <PostForm addPost={addPost} editingPost={editingPost} />
         </div>
         <div class='col s3 push-in'>
@@ -74,7 +74,7 @@ const Home = () => {
       </div>
       <div className='row'>
         {posts.map(post => (
-          <div className='col s6' key={post.id}>
+          <div className='col s12 m6' key={post.id}>
             <div className='card'>
               <div className='card-content'>
                 <div className='card-title'>{post.title}</div>
