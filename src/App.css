@@ -1,0 +1,16 @@
+.delete-btn {
+  color: red !important;
+}
+.card .card-content .card-title {
+  margin-bottom: 0;
+}
+.card .card-content p.timestamp {
+  color: #999;
+  margin-bottom: 12px;
+}
+.push-in {
+  margin: 20px;
+}
+.progress {
+  margin: 100px 0;
+}
